@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Q2</title>
+<script>
+
+	var sale1 = 1200;
+	var sale2 = 1300;
+	var sale3 = 1000;
+	
+	var sale4 = prompt("4분기 판매량?", "0");
+	
+	var avg = (sale1+sale2+sale3+sale4)/4
+	var result = avg>=sale4 ? "판매량이 평균 이상입니다." : "판매량이 평균 미달입니다.";
+	document.write(result);
+	
+	/* 답
+	var avgSales = ( 1200 + 1300 + 1000 ) / 3; //평균 판매량 
+	var fourth = prompt("4분기 판매량은?", "0");
+	var msg_1 = "판매량이 평균 이상입니다.",
+		msg_2 = "퍈매량이 평균 미달입니다.";
+	
+	var result =  fourth >= avgSales ? msg_1 : msg_2;
+	document.write(result);
+	*/
+</script>
+
+</head>
+<body>
+
+</body>
+</html>
